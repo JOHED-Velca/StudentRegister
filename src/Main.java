@@ -7,7 +7,10 @@ public class Main {
     static ArrayList<String> students = new ArrayList<String>();
 
     public static void main(String[] args){
+        mainMenu();
+    }
 
+    public static void mainMenu() {
         int op;
         do {
             System.out.println("--------MENU--------");
@@ -42,7 +45,6 @@ public class Main {
                     break;
             }
         }while(op!=4);
-
     }
 
     public static void addNewStudent() {
